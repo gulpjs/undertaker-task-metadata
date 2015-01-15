@@ -15,7 +15,8 @@ TaskMetadataRegistry.prototype.set = function set(name, fn){
     name: name
   };
 
-  this._tasks[name] = fn.bind(metadata);
+  var task = this._tasks[name] = fn.bind(metadata);
+  return task;
 };
 
 module.exports = TaskMetadataRegistry;
