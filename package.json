@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/undertakerjs/undertaker-task-metadata",
   "dependencies": {
-    "undertaker-registry": "0.0.2"
+    "undertaker-registry": "0.0.3"
   }
 }
