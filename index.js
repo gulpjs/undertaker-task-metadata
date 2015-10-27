@@ -4,15 +4,15 @@ var util = require('util');
 
 var DefaultRegistry = require('undertaker-registry');
 
-function TaskMetadataRegistry(){
+function TaskMetadataRegistry() {
   DefaultRegistry.call(this);
 }
 
 util.inherits(TaskMetadataRegistry, DefaultRegistry);
 
-TaskMetadataRegistry.prototype.set = function set(name, fn){
+TaskMetadataRegistry.prototype.set = function set(name, fn) {
   var metadata = {
-    name: name
+    name: name,
   };
 
   var task = this._tasks[name] = fn.bind(metadata);
