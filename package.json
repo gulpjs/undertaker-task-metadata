@@ -1,22 +1,23 @@
 {
   "name": "undertaker-task-metadata",
   "version": "0.0.0",
-  "description": "Proof-of-concept custom registry that attaches metadata to the task",
+  "description": "Proof-of-concept custom registry that attaches metadata to each task",
+  "author": "Gulp Team <team@gulpjs.com> (http://gulpjs.com/)",
+  "contributors": [],
+  "repository": "gulpjs/undertaker-task-metadata",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10"
+  },
   "main": "index.js",
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
   "scripts": {
     "lint": "eslint . && jscs index.js examples/",
     "test": "npm run lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gulpjs/undertaker-task-metadata"
-  },
-  "author": "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gulpjs/undertaker-task-metadata/issues"
-  },
-  "homepage": "https://github.com/gulpjs/undertaker-task-metadata",
   "dependencies": {
     "undertaker-registry": "0.0.3"
   },
@@ -25,5 +26,14 @@
     "eslint-config-gulp": "^2.0.0",
     "jscs": "^2.4.0",
     "jscs-preset-gulp": "^1.0.0"
-  }
+  },
+  "keywords": [
+    "bind",
+    "metadata",
+    "custom registry",
+    "registry",
+    "tasks",
+    "undertaker",
+    "gulp"
+  ]
 }
