@@ -19,7 +19,7 @@
     "test": "npm run lint"
   },
   "dependencies": {
-    "undertaker-registry": "0.0.3"
+    "undertaker-registry": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^1.7.3",
