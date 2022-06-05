@@ -1,12 +1,12 @@
 <p align="center">
-  <a href="http://gulpjs.com">
+  <a href="https://gulpjs.com">
     <img height="257" width="114" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png">
   </a>
 </p>
 
 # undertaker-task-metadata
 
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Gitter chat][gitter-image]][gitter-url]
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][ci-image]][ci-url] [![Coveralls Status][coveralls-image]][coveralls-url]
 
 Proof-of-concept custom registry that attaches metadata to each task.
 
@@ -34,12 +34,14 @@ Constructor for the registry. Pass an instance of this registry to `gulp.registr
 
 MIT
 
-[downloads-image]: http://img.shields.io/npm/dm/undertaker-task-metadata.svg
+<!-- prettier-ignore-start -->
+[downloads-image]: https://img.shields.io/npm/dm/undertaker-task-metadata.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/undertaker-task-metadata
-[npm-image]: http://img.shields.io/npm/v/undertaker-task-metadata.svg
+[npm-image]: https://img.shields.io/npm/v/undertaker-task-metadata.svg?style=flat-square
 
-[travis-url]: https://travis-ci.org/gulpjs/undertaker-task-metadata
-[travis-image]: http://img.shields.io/travis/gulpjs/undertaker-task-metadata.svg
+[ci-url]: https://github.com/gulpjs/undertaker-task-metadata/actions?query=workflow:dev
+[ci-image]: https://img.shields.io/github/workflow/status/gulpjs/undertaker-task-metadata/dev?style=flat-square
 
-[gitter-url]: https://gitter.im/gulpjs/gulp
-[gitter-image]: https://badges.gitter.im/gulpjs/gulp.png
+[coveralls-url]: https://coveralls.io/r/gulpjs/undertaker-task-metadata
+[coveralls-image]: https://img.shields.io/coveralls/gulpjs/undertaker-task-metadata.svg?style=flat-square
+<!-- prettier-ignore-start -->
