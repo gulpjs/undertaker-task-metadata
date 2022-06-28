@@ -2,12 +2,14 @@
   "name": "undertaker-task-metadata",
   "version": "1.0.0",
   "description": "Proof-of-concept custom registry that attaches metadata to each task",
-  "author": "Gulp Team <team@gulpjs.com> (http://gulpjs.com/)",
-  "contributors": [],
+  "author": "Gulp Team <team@gulpjs.com> (https://gulpjs.com/)",
+  "contributors": [
+    "Blaine Bublitz <blaine.bublitz@gmail.com>"
+  ],
   "repository": "gulpjs/undertaker-task-metadata",
   "license": "MIT",
   "engines": {
-    "node": ">= 0.10"
+    "node": ">= 10.13.0"
   },
   "main": "index.js",
   "files": [
@@ -15,17 +17,28 @@
     "index.js"
   ],
   "scripts": {
-    "lint": "eslint . && jscs index.js examples/",
-    "test": "npm run lint"
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "nyc mocha --async-only"
   },
   "dependencies": {
-    "undertaker-registry": "^1.0.0"
+    "undertaker-registry": "^2.0.0"
   },
   "devDependencies": {
-    "eslint": "^1.7.3",
-    "eslint-config-gulp": "^2.0.0",
-    "jscs": "^2.4.0",
-    "jscs-preset-gulp": "^1.0.0"
+    "eslint": "^7.32.0",
+    "eslint-config-gulp": "^5.0.1",
+    "expect": "^27.5.1",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true
   },
   "keywords": [
     "bind",
