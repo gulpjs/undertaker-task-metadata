@@ -18,7 +18,7 @@ var TaskMetadata = require('undertaker-task-metadata');
 
 gulp.registry(new TaskMetadata());
 
-gulp.task('default', function(cb) {
+gulp.task('default', function (cb) {
   // this.name === 'default'
   cb();
 });
@@ -35,13 +35,13 @@ Constructor for the registry. Pass an instance of this registry to `gulp.registr
 MIT
 
 <!-- prettier-ignore-start -->
+
 [downloads-image]: https://img.shields.io/npm/dm/undertaker-task-metadata.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/undertaker-task-metadata
 [npm-image]: https://img.shields.io/npm/v/undertaker-task-metadata.svg?style=flat-square
-
 [ci-url]: https://github.com/gulpjs/undertaker-task-metadata/actions?query=workflow:dev
 [ci-image]: https://img.shields.io/github/workflow/status/gulpjs/undertaker-task-metadata/dev?style=flat-square
-
 [coveralls-url]: https://coveralls.io/r/gulpjs/undertaker-task-metadata
 [coveralls-image]: https://img.shields.io/coveralls/gulpjs/undertaker-task-metadata.svg?style=flat-square
+
 <!-- prettier-ignore-start -->

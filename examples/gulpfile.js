@@ -5,7 +5,7 @@ var TaskMetadataRegistry = require('../');
 
 gulp.registry(new TaskMetadataRegistry());
 
-gulp.task('test', function(cb) {
+gulp.task('test', function (cb) {
   console.log(this);
   this.count = this.count || 0;
   this.count += 1;
