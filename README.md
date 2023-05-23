@@ -40,7 +40,7 @@ MIT
 [npm-url]: https://npmjs.org/package/undertaker-task-metadata
 [npm-image]: https://img.shields.io/npm/v/undertaker-task-metadata.svg?style=flat-square
 [ci-url]: https://github.com/gulpjs/undertaker-task-metadata/actions?query=workflow:dev
-[ci-image]: https://img.shields.io/github/workflow/status/gulpjs/undertaker-task-metadata/dev?style=flat-square
+[ci-image]: https://img.shields.io/github/actions/workflow/status/gulpjs/undertaker-task-metadata/dev.yml?branch=master&style=flat-square
 [coveralls-url]: https://coveralls.io/r/gulpjs/undertaker-task-metadata
 [coveralls-image]: https://img.shields.io/coveralls/gulpjs/undertaker-task-metadata.svg?style=flat-square
 
