@@ -30,18 +30,28 @@ gulp.task('default', function (cb) {
 
 Constructor for the registry. Pass an instance of this registry to `gulp.registry`.
 
+## Strict No LLM / No AI Policy
+
+No LLMs for issues.
+
+No LLMs for patches / pull requests.
+
+No LLMs for comments on the bug tracker, including translation.
+
+English is encouraged, but not required. You are welcome to post in your native language and rely on others to have their own translation tools of choice to interpret your words.
+
 ## License
 
 MIT
 
 <!-- prettier-ignore-start -->
-
 [downloads-image]: https://img.shields.io/npm/dm/undertaker-task-metadata.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/undertaker-task-metadata
+[npm-url]: https://www.npmjs.com/package/undertaker-task-metadata
 [npm-image]: https://img.shields.io/npm/v/undertaker-task-metadata.svg?style=flat-square
-[ci-url]: https://github.com/gulpjs/undertaker-task-metadata/actions?query=workflow:dev
-[ci-image]: https://img.shields.io/github/actions/workflow/status/gulpjs/undertaker-task-metadata/dev.yml?branch=master&style=flat-square
-[coveralls-url]: https://coveralls.io/r/gulpjs/undertaker-task-metadata
-[coveralls-image]: https://img.shields.io/coveralls/gulpjs/undertaker-task-metadata.svg?style=flat-square
 
-<!-- prettier-ignore-start -->
+[ci-url]: https://github.com/gulpjs/undertaker-task-metadata/actions/workflows/dev.yml
+[ci-image]: https://img.shields.io/github/actions/workflow/status/gulpjs/undertaker-task-metadata/dev.yml?style=flat-square
+
+[coveralls-url]: https://coveralls.io/r/gulpjs/undertaker-task-metadata
+[coveralls-image]: https://img.shields.io/coveralls/gulpjs/undertaker-task-metadata/main.svg?style=flat-square
+<!-- prettier-ignore-end -->
