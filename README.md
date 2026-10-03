@@ -13,12 +13,12 @@ Proof-of-concept custom registry that attaches metadata to each task.
 ## Example
 
 ```js
-var gulp = require('gulp');
-var TaskMetadata = require('undertaker-task-metadata');
+var gulp = require("gulp");
+var TaskMetadata = require("undertaker-task-metadata");
 
 gulp.registry(new TaskMetadata());
 
-gulp.task('default', function (cb) {
+gulp.task("default", function (cb) {
   // this.name === 'default'
   cb();
 });
