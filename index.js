@@ -1,8 +1,8 @@
-'use strict';
+"use strict";
 
-var util = require('util');
+var util = require("util");
 
-var DefaultRegistry = require('undertaker-registry');
+var DefaultRegistry = require("undertaker-registry");
 
 function TaskMetadataRegistry() {
   DefaultRegistry.call(this);
